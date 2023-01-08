@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header {
+    max-width: 412px;
+    height: 915px;
+    border: 1px solid red;
+    margin: 0 auto;
+    
+} */
+
+@media screen and (min-width: 570px) {
+    header {
+        max-width: 412px;
+        height: 840px;
+        border: 1px solid red;
+        margin: 0 auto;
+        margin-top: 50px;
+        box-shadow: #808080c7 0px 1px 14px;
+    }
+  }
+
+.logo-time-section {
+    background-image: linear-gradient(#d33967, #b80339);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.logo-time-img {
+    width: 100px ;
+    height: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo-time-img img {
+    width: 70px;
+}
+
+.time-remaining {
+    margin-top: 50px;
+    text-align: center;
+    
+    color: #fff;
+}
+
+.time-remaining-heading {
+    font-size: 60px;
+}
+
+.time-rem-des {
+    font-size: 14px;
+}
+
+.description-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 10px;
+}
+
+.form-section {
+    margin-top: 50px;
+    padding: 0 25px;
+}
+
+.horizontal-line {
+    width: 100%;
+    background-color: #cc154d;
+    height: 2px;  
+}
+
+.amount-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.amount-number span{
+font-weight: bold;
+margin-left: 5px;
+}
+
+.amount-number-copy {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    background-color: #cc154d;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.tran-input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.tran-input input {
+    padding: 5px 10px;
+    width: 214px;
+    border-radius: 4px;
+    border: 1px solid rgb(114, 114, 114);
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 12px;
+    color: rgb(63, 63, 63);
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 0;
+    background-image: linear-gradient(#d33967, #b80339);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    
+}
